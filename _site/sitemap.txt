@@ -1,0 +1,12 @@
+
+http://duongbaoduy.github.io/about.html
+http://duongbaoduy.github.io/archive.html
+http://duongbaoduy.github.io/atom.xml
+http://duongbaoduy.github.io/categories.html
+http://duongbaoduy.github.io/index.html
+http://duongbaoduy.github.io/pages.html
+http://duongbaoduy.github.io/rss.xml
+http://duongbaoduy.github.io/sitemap.txt
+http://duongbaoduy.github.io/tags.html
+
+http://duongbaoduy.github.io/orgmode/blog/2014/06/19/How-to-post-new-entry-with-org2blog

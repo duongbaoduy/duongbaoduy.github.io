@@ -1,0 +1,24 @@
+body {
+    padding: 50px 10px 0 10px;
+    margin: 0;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #cccccc;
+    border-radius: 1px;
+}
+.container-fluid>.navbar-header {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ul.nav.navbar-nav {
+    margin: 7.5px 15px;
+}
+nav.navbar.navbar-default.navbar-fixed-top {
+    margin: 0;
+    position: fixed;
+}

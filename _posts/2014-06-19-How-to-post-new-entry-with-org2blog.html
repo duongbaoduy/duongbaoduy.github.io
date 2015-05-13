@@ -1,0 +1,91 @@
+---
+layout: org
+title: "How to post new entry with org2blog"
+description: ""
+excerpt:
+categories: [orgmode, blog]
+tags: []
+published: true
+---
+{% include JB/setup %}
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">English</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1">Some necessary short key for org2blog/wp-mode.</h3>
+<div class="outline-text-3" id="text-1-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border">
+<caption class="t-above"><span class="table-number">Table 1:</span> Describe shortcut key</caption>
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Key</th>
+<th scope="col" class="left">Describe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">C-c p</td>
+<td class="left">publish buffer</td>
+</tr>
+
+<tr>
+<td class="left">C-c d</td>
+<td class="left">post as draft</td>
+</tr>
+
+<tr>
+<td class="left">C-c t</td>
+<td class="left">Complete tag or parent page name</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2">Creating your post</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+It really could not be simpler
+</p>
+<ol class="org-ol">
+<li>M-x org2blog/wp-login - To Login to your blog.
+</li>
+<li>M-x org2blog/wp-new-entry - To create a new post.
+</li>
+<li>Make your changes in the file.
+</li>
+<li>C-x C-s – To save the changes
+</li>
+<li>C-c d – To run the command org2blog/wp-post-buffer which if everything has worked successfully will post your post to your blog as a draft. You’ll notice that POSTID (‘#+POSTID: 00000′) will have been prepended to the file.
+</li>
+<li>You’ll also be prompted asking if you want to open you’ll new post in the browser. Pressing ‘y’ will do this and if everything has gone well you should see your post.
+</li>
+<li>Make changes till your happy with your post.
+</li>
+<li>C-c p – To publish your post to be visible to all.      
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3">Delete an entry</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+<code>C-u post-id M-x org2blog-delete-entry</code>
+</p>
+
+<p>
+Thats it your done.   
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Vietnamese</h2>
+</div>

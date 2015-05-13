@@ -1,0 +1,7 @@
+[submodule "_theme_packages/mark-reid"]
+    path = _theme_packages/mark-reid
+    url = https://github.com/jekyllbootstrap/theme-mark-reid.git
+
+[submodule "assets/sass/bootstrap"]
+    path = assets/sass/bootstrap
+    url = https://github.com/twitter/bootstrap.git
