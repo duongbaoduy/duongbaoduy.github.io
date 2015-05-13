@@ -64,14 +64,16 @@ git-create:
 	git init
 	git config --global user.name "Duong Bao Duy"
 	git config --global user.email "baoduy.duong0206@gmail.com"
-	for branch in $(shell git remote); do \
-		case "$branch" in \
-			"origin" ) git remote remove origin; \
-			"octopress" ) git remote remove octopress; \
-		esac \ 	
+	for branch in $(shell git remote) ; do \
+		case "$$branch" in \
+			"origin" ) \
+				git remote remove origin ;; \
+			"octopress" ) \
+				git remote remove octopress ;; \
+		esac \
 	done
 	git remote add origin https://github.com/duongbaoduy/duongbaoduy.github.io.git
-	@echo Done $@ : $^ !!
+	@echo Done $@ !!
 
 .PHONY: build
 build:
@@ -107,6 +109,7 @@ gitk:
 	gitk.cmd --all
 	@echo Done $@ !!
 
+SHELL = bash
 .suffixes: .c .cc .cpp .h .o .py .java
 .SHELLFLAGS: -e
 #.ONESHELL:
