@@ -1,0 +1,109 @@
+# Site settings
+encoding: utf-8
+name: Selfie with github
+title: Selfie with github
+description: My private blog
+
+email: baoduy.duong0206@gmail.com
+author: duydb
+author_email: baoduy.duong0206@gmail.com
+
+category_dir: 
+
+baseurl:
+url: http://duongbaoduy.github.io
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+# Build settings
+#markdown: rdiscount
+markdown: kramdown
+
+permalink: pretty
+paginate: 5
+highlighter: pygments
+#github: 
+
+rdiscount:
+  extensions: []
+  
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules, vendor]
+
+
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+sharing: false
+
+# Github repositories
+github_user: duongbaoduy
+github_repo_count: 4
+github_show_profile_link: false
+github_skip_forks: true
+# github api v3 params
+# see http://developer.github.com/v3/repos/#list-user-repositories
+github_type: all
+github_sort: updated
+github_direction: desc
+
+# Twitter
+twitter_user: duong_bao_duy
+twitter_tweet_count: 7
+twitter_show_replies: false
+twitter_follow_button: false
+twitter_show_follower_count: false
+twitter_tweet_button: false
+
+# Tumblr
+tumblr_user: 
+tumblr_post_num: 10
+
+# Google +1
+google_plus_one: false
+google_plus_one_size: medium
+
+# Google Plus Profile
+# Hidden: No visible button, just add author information to search results
+googleplus_user:
+googleplus_hidden: false
+
+# Pinboard
+pinboard_user:
+pinboard_count: 3
+
+# Delicious
+delicious_user:
+delicious_count: 3
+
+# Disqus Comments
+disqus_short_name: 
+disqus_show_comment_count: false
+
+# Google Analytics
+google_analytics_tracking_id:
+
+# Facebook Like
+facebook_like: false
+
+# Social Service Links
+social_service_links: true
