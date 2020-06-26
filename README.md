@@ -1,1 +1,2 @@
-# duongbaoduy.github.com
+# [Dương Bảo Duy](duongbaoduy.github.com)
+This is my blog
